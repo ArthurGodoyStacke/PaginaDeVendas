@@ -3,381 +3,362 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ajudando Brasileiros a Imigrar para os EUA</title>
-    
+    <title>7 Dias Barriga Leve - Seu Guia Prático para Desinchar!</title>
+
     <script src="https://cdn.tailwindcss.com"></script>
-    
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap"></noscript>
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap"></noscript>
 
     <style>
-       
-
-       
         body {
-            background-color: #1a1a2e; 
-            color: #e0e0f0; 
-            font-family: 'Inter', sans-serif; 
+            background-color: #f0fdf4; /* Verde Água bem claro para leveza */
+            color: #333333; /* Texto escuro para contraste */
+            font-family: 'Poppins', sans-serif;
         }
 
         .glass-effect {
-            background-color: rgba(30, 0, 50, 0.2); 
-            backdrop-filter: blur(12px); 
-            -webkit-backdrop-filter: blur(12px);
-            border: 1px solid rgba(80, 0, 100, 0.3); 
-            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            background-color: rgba(255, 255, 255, 0.7); /* Branco semi-transparente */
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(200, 255, 220, 0.5); /* Borda mais suave */
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
         }
 
-       
-        .text-gradient-purple-blue {
-            background: linear-gradient(90deg, #a855f7, #6366f1); 
+        .text-gradient-green-blue {
+            background: linear-gradient(90deg, #10b981, #3b82f6); /* Verde vibrante para azul suave */
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            color: transparent; 
+            color: transparent;
         }
-        .text-gradient-rainbow {
-            background: linear-gradient(90deg, #ff007f, #b34aff, #00d4ff, #00ff7f, #ffeb3b);
+        .text-gradient-purple-pink {
+            background: linear-gradient(90deg, #a855f7, #ec4899); /* Roxo para rosa */
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
             color: transparent;
         }
         .btn-gradient {
-            background: linear-gradient(90deg, #ff007f, #b34aff); 
+            background: linear-gradient(90deg, #22c55e, #3b82f6); /* Verde para azul */
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(179, 74, 255, 0.4);
+            box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4);
         }
         .btn-gradient:hover {
-            background: linear-gradient(90deg, #b34aff, #ff007f); 
+            background: linear-gradient(90deg, #3b82f6, #22c55e); /* Inverte no hover */
             transform: translateY(-2px) scale(1.02);
-            box-shadow: 0 6px 20px rgba(179, 74, 255, 0.6);
+            box-shadow: 0 6px 20px rgba(59, 130, 246, 0.6);
         }
 
         .section-padding {
-            padding: 4rem 1rem; 
+            padding: 4rem 1rem;
         }
         @media (min-width: 768px) {
             .section-padding {
-                padding: 6rem 2rem; 
+                padding: 6rem 2rem;
             }
         }
         @media (min-width: 1024px) {
             .section-padding {
-                padding: 8rem 4rem; 
+                padding: 8rem 4rem;
             }
         }
 
-     
-        .icon-glow {
-            filter: drop-shadow(0 0 8px rgba(0, 212, 255, 0.6)); 
+        .icon-soft-glow {
+            filter: drop-shadow(0 0 6px rgba(16, 185, 129, 0.6)); /* Brilho suave verde */
+        }
+
+        .testimonial-card {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-item {
+            background-color: #ffffff; /* Fundo branco para os itens */
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+            text-align: left;
         }
     </style>
 </head>
-<body class="bg-gradient-to-br from-[#1a1a2e] via-[#0f0c29] to-[#24243e] min-h-screen text-white antialiased overflow-x-hidden">
+<body class="bg-gradient-to-br from-[#f0fdf4] via-[#e0f2f7] to-[#dcfce7] min-h-screen text-gray-800 antialiased overflow-x-hidden">
 
     <header class="absolute top-0 right-0 p-4 text-sm z-50">
-      <a href="https://wa.me/5551998862191?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%21" target="_blank" class="text-blue-300 hover:text-blue-400 transition-colors duration-300">Dúvida ou quer me conhecer melhor? Entre em contato</a>
+        <a href="https://wa.me/5551998862191?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%21" target="_blank" class="text-emerald-600 hover:text-emerald-700 transition-colors duration-300">Dúvida? Fale conosco!</a>
     </header>
 
     <section class="relative h-screen flex items-center justify-center p-4 overflow-hidden">
         <div class="relative z-10 text-center max-w-5xl mx-auto px-4">
-            <div class="glass-effect p-8 md:p-12 rounded-2xl shadow-2xl">
-                <p class="text-lg md:text-xl text-blue-300 mb-2">Seu Passaporte para o Sonho Americano Começa Aqui</p>
+            <div class="glass-effect p-8 md:p-12 rounded-3xl shadow-2xl">
+                <p class="text-lg md:text-xl text-emerald-600 mb-2 font-semibold">Transforme seu bem-estar em apenas 7 dias!</p>
                 <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
-                    <span class="text-gradient-rainbow">Ajudando Brasileiros a Imigrar para os Estados Unidos</span>
+                    <span class="text-gradient-green-blue">7 Dias Barriga Leve</span>
                 </h1>
-                <p class="text-lg md:text-2xl text-gray-300 mb-10">
-                    Transforme a complexidade da imigração em um processo claro e acessível. Nosso guia completo e exclusivo te mostra o caminho, passo a passo, para construir uma nova vida nos EUA!
+                <p class="text-lg md:text-2xl text-gray-700 mb-10">
+                    O guia prático definitivo para desinchar, sentir-se leve e com mais energia! Receitas deliciosas, cardápio completo, lista de compras e treinos de 5 minutos por dia!
                 </p>
-                <a href="https://pay.cakto.com.br/35des8u" target="_blank" class="inline-block btn-gradient text-white font-bold py-3 px-8 md:py-4 md:px-10 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                    SAIBA MAIS
+                <a href="LINK_DO_SEU_EBOOK_AQUI" target="_blank" class="inline-block btn-gradient text-white font-bold py-3 px-8 md:py-4 md:px-10 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                    QUERO MINHA BARRIGA LEVE AGORA!
                 </a>
             </div>
         </div>
     </section>
 
-    <section class="section-padding bg-gray-900 bg-opacity-70 backdrop-filter backdrop-blur-sm">
+    <section class="section-padding bg-emerald-50 bg-opacity-80 backdrop-filter backdrop-blur-sm">
         <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-8">Chega de incertezas e informações desencontradas!</h2>
-            <p class="text-lg md:text-xl text-gray-300 mb-12">Descubra como milhares de brasileiros estão realizando o sonho de viver e trabalhar nos EUA, sem cair em armadilhas ou gastar fortunas com consultorias desnecessárias.</p>
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 text-gray-800">Cansada do inchaço e da sensação de peso?</h2>
+            <p class="text-lg md:text-xl text-gray-700 mb-12">Você já tentou de tudo e ainda se sente assim?</p>
 
-            <h3 class="text-2xl md:text-3xl font-semibold mb-8">Você já sentiu que:</h3>
+            <h3 class="text-2xl md:text-3xl font-semibold mb-8 text-emerald-700">Você se identifica com algum desses pontos?</h3>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-                <div class="glass-effect p-6 rounded-xl flex flex-col items-center">
-                    <div class="text-gradient-rainbow text-4xl mb-4 font-bold">1</div>
-                    <p class="text-lg text-gray-200">A burocracia para imigrar é insuportável e confusa?</p>
+                <div class="feature-item p-6 rounded-xl flex flex-col items-center">
+                    <div class="text-gradient-green-blue text-4xl mb-4 font-bold">1</div>
+                    <p class="text-lg text-gray-700">Sente a barriga sempre estufada, mesmo comendo pouco?</p>
                 </div>
-                <div class="glass-effect p-6 rounded-xl flex flex-col items-center">
-                    <div class="text-gradient-rainbow text-4xl mb-4 font-bold">2</div>
-                    <p class="text-lg text-gray-200">Você tem o desejo de morar nos EUA, mas não sabe por onde começar nem em quem confiar?</p>
+                <div class="feature-item p-6 rounded-xl flex flex-col items-center">
+                    <div class="text-gradient-green-blue text-4xl mb-4 font-bold">2</div>
+                    <p class="text-lg text-gray-700">Não sabe quais alimentos realmente causam inchaço?</p>
                 </div>
-                <div class="glass-effect p-6 rounded-xl flex flex-col items-center">
-                    <div class="text-gradient-rainbow text-4xl mb-4 font-bold">3</div>
-                    <p class="text-lg text-gray-200">O medo de cometer erros no processo te impede de dar o primeiro passo?</p>
+                <div class="feature-item p-6 rounded-xl flex flex-col items-center">
+                    <div class="text-gradient-green-blue text-4xl mb-4 font-bold">3</div>
+                    <p class="text-lg text-gray-700">Falta tempo para preparar refeições saudáveis e completas?</p>
                 </div>
             </div>
-            <p class="text-lg md:text-xl text-gray-300">Se a resposta for sim, você não está sozinho. A jornada para os Estados Unidos pode parecer assustadora, mas com o conhecimento certo, ela se torna clara e totalmente alcançável. É hora de mudar isso!</p>
+            <p class="text-lg md:text-xl text-gray-700">Se você respondeu sim, este e-book foi feito para você! Diga adeus ao desconforto e olá a uma vida mais leve e feliz.</p>
         </div>
     </section>
 
-    <section id="solucao" class="section-padding bg-gray-800 bg-opacity-70 backdrop-filter backdrop-blur-sm">
+    <section id="solucao" class="section-padding bg-white bg-opacity-90 backdrop-filter backdrop-blur-sm">
         <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4">A SOLUÇÃO DEFINITIVA</h2>
-            <h3 class="text-4xl md:text-5xl font-extrabold text-gradient-purple-blue mb-10">Apresentamos: Ajudando Brasileiros a Imigrar para os Estados Unidos</h3>
-            <p class="text-lg md:text-xl text-gray-300 mb-12">Este guia prático e atualizado foi feito para você que quer:</p>
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-800">SUA JORNADA PARA A BARRIGA LEVE COMEÇA AQUI!</h2>
+            <h3 class="text-4xl md:text-5xl font-extrabold text-gradient-purple-pink mb-10">Apresentamos: 7 Dias Barriga Leve</h3>
+            <p class="text-lg md:text-xl text-gray-700 mb-12">Este guia prático e delicioso foi feito para quem quer:</p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                 <div class="glass-effect p-6 rounded-xl text-left">
-                    <div class="text-blue-400 text-3xl mb-3 flex items-center">
-                        <svg class="w-8 h-8 mr-3 icon-glow" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"/></svg>
-                        <span class="font-semibold text-xl">Planejar sua imigração</span>
+                    <div class="text-emerald-500 text-3xl mb-3 flex items-center">
+                        <svg class="w-8 h-8 mr-3 icon-soft-glow" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"/></svg>
+                        <span class="font-semibold text-xl text-gray-800">Desinchar em 7 dias</span>
                     </div>
-                    <p class="text-gray-300 pl-11">de forma estratégica, entendendo cada etapa e os melhores caminhos para seu perfil.</p>
+                    <p class="text-gray-700 pl-11">Com um plano alimentar e rotina de exercícios simples e eficazes.</p>
                 </div>
                 <div class="glass-effect p-6 rounded-xl text-left">
-                    <div class="text-purple-400 text-3xl mb-3 flex items-center">
-                           <svg class="w-8 h-8 mr-3 icon-glow" fill="currentColor" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 20c-3.87 0-7-3.13-7-7v-5.69l7-3.5 7 3.5V14c0 3.87 3.13 7 7 7s7-3.13 7-7V8.7l-6-2.78z"/></svg>
-                        <span class="font-semibold text-xl">Evitar erros comuns</span>
+                    <div class="text-pink-500 text-3xl mb-3 flex items-center">
+                        <svg class="w-8 h-8 mr-3 icon-soft-glow" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM9 16.5L4.5 12 6 10.5l3 3 7.5-7.5L18 7.5l-9 9z"/></svg>
+                        <span class="font-semibold text-xl text-gray-800">Comer com sabor e leveza</span>
                     </div>
-                    <p class="text-gray-300 pl-11">que atrasam ou inviabilizam o processo, economizando tempo e dinheiro.</p>
+                    <p class="text-gray-700 pl-11">Com receitas anti-inchaço deliciosas e fáceis de preparar.</p>
                 </div>
                 <div class="glass-effect p-6 rounded-xl text-left">
-                    <div class="text-green-400 text-3xl mb-3 flex items-center">
-                        <svg class="w-8 h-8 mr-3 icon-glow" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM9 16.5L4.5 12 6 10.5l3 3 7.5-7.5L18 7.5l-9 9z"/></svg>
-                        <span class="font-semibold text-xl">Dominar as exigências</span>
+                    <div class="text-blue-500 text-3xl mb-3 flex items-center">
+                        <svg class="w-8 h-8 mr-3 icon-soft-glow" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM11 7h2v6h-2zm0 8h2v2h-2z"/></svg>
+                        <span class="font-semibold text-xl text-gray-800">Otimizar seu tempo</span>
                     </div>
-                    <p class="text-gray-300 pl-11">de vistos, green cards e documentação necessária, com exemplos claros e modelos.</p>
+                    <p class="text-gray-700 pl-11">Com treinos de 5 minutos que fazem a diferença e lista de compras inteligente.</p>
                 </div>
                 <div class="glass-effect p-6 rounded-xl text-left">
-                    <div class="text-red-400 text-3xl mb-3 flex items-center">
-                        <svg class="w-8 h-8 mr-3 icon-glow" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM12 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"/></svg>
-                        <span class="font-semibold text-xl">Entender o mercado de trabalho americano</span>
+                    <div class="text-orange-500 text-3xl mb-3 flex items-center">
+                        <svg class="w-8 h-8 mr-3 icon-soft-glow" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM12 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"/></svg>
+                        <span class="font-semibold text-xl text-gray-800">Viver com mais energia</span>
                     </div>
-                    <p class="text-gray-300 pl-11">como buscar oportunidades e se preparar para entrevistas.</p>
-                </div>
-                <div class="glass-effect p-6 rounded-xl text-left">
-                    <div class="text-yellow-400 text-3xl mb-3 flex items-center">
-                        <svg class="w-8 h-8 mr-3 icon-glow" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM11 7h2v6h-2zm0 8h2v2h-2z"/></svg>
-                        <span class="font-semibold text-xl">Preparar-se para a vida nos EUA</span>
-                    </div>
-                    <p class="text-gray-300 pl-11">desde a moradia, custo de vida, sistema de saúde e educação.</p>
+                    <p class="text-gray-700 pl-11">E bem-estar, sentindo-se mais disposta e confiante no seu corpo.</p>
                 </div>
             </div>
 
-            <a href="https://pay.cakto.com.br/35des8u" target="_blank" class="inline-block btn-gradient text-white font-bold py-3 px-8 md:py-4 md:px-10 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                QUERO SABER COMO IMIGRAR AGORA!
+            <a href="LINK_DO_SEU_EBOOK_AQUI" target="_blank" class="inline-block btn-gradient text-white font-bold py-3 px-8 md:py-4 md:px-10 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                SIM, QUERO MINHA BARRIGA LEVE!
             </a>
         </div>
     </section>
-
-    <section class="section-padding bg-gray-900 bg-opacity-70 backdrop-filter backdrop-blur-sm">
+    <section class="section-padding bg-emerald-50 bg-opacity-80 backdrop-filter backdrop-blur-sm">
         <div class="max-w-6xl mx-auto text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4">CONTEÚDO EXCLUSIVO</h2>
-            <h3 class="text-4xl md:text-5xl font-extrabold text-gradient-rainbow mb-10">Módulos do Guia Completo</h3>
-            <p class="text-lg md:text-xl text-gray-300 mb-8">Um programa passo a passo para te guiar rumo à sua nova vida nos Estados Unidos.</p>
-            <p class="text-lg md:text-xl text-blue-300 mb-12 font-semibold">Conteúdo <span class="text-gradient-purple-blue">constantemente atualizado</span> com as últimas mudanças na legislação e processos imigratórios.</p>
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-800">O QUE VOCÊ VAI ENCONTRAR NO E-BOOK</h2>
+            <h3 class="text-4xl md:text-5xl font-extrabold text-gradient-green-blue mb-10">Conteúdo do Guia "7 Dias Barriga Leve"</h3>
+            <p class="text-lg md:text-xl text-gray-700 mb-8">Tudo o que você precisa para uma transformação real em apenas uma semana.</p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="glass-effect p-6 rounded-xl text-left flex flex-col justify-between">
                     <div>
-                        <h4 class="text-xl font-bold text-gradient-purple-blue mb-2">Módulo 1: O Ponto de Partida - Planejamento Essencial</h4>
-                        <ul class="list-disc list-inside text-gray-300 text-base space-y-1">
-                            <li>Descubra as diferentes vias de imigração (vistos de trabalho, estudo, família, investimento).</li>
-                            <li>Como identificar o visto ideal para o seu objetivo e perfil.</li>
-                            <li>Checklist completo para sua organização inicial e documentação básica.</li>
+                        <h4 class="text-xl font-bold text-gradient-purple-pink mb-2">Dia 1: O Início da Leveza</h4>
+                        <ul class="list-disc list-inside text-gray-700 text-base space-y-1">
+                            <li>Introdução ao conceito anti-inchaço.</li>
+                            <li>Receitas de café da manhã e lanches desintoxicantes.</li>
+                            <li>Seu primeiro treino de 5 minutos.</li>
                         </ul>
                     </div>
                 </div>
                 <div class="glass-effect p-6 rounded-xl text-left flex flex-col justify-between">
                     <div>
-                        <h4 class="text-xl font-bold text-gradient-purple-blue mb-2">Módulo 2: Desvendando os Vistos e Green Cards</h4>
-                        <ul class="list-disc list-inside text-gray-300 text-base space-y-1">
-                            <li>Guia detalhado sobre os principais tipos de vistos (H1B, O-1, L-1, EB-X) e seus requisitos.</li>
-                            <li>Processo de solicitação de Green Card: elegibilidade e etapas.</li>
-                            <li>Dicas para evitar recusas e otimizar sua aplicação.</li>
+                        <h4 class="text-xl font-bold text-gradient-purple-pink mb-2">Dia 2: Desvendando os Alimentos</h4>
+                        <ul class="list-disc list-inside text-gray-700 text-base space-y-1">
+                            <li>Lista de alimentos que incham e desincham.</li>
+                            <li>Opções de almoço e jantar leves e nutritivas.</li>
+                            <li>Treino rápido para ativar o metabolismo.</li>
                         </ul>
                     </div>
                 </div>
                 <div class="glass-effect p-6 rounded-xl text-left flex flex-col justify-between">
                     <div>
-                        <h4 class="text-xl font-bold text-gradient-purple-blue mb-2">Módulo 3: A Documentação Descomplicada</h4>
-                        <ul class="list-disc list-inside text-gray-300 text-base space-y-1">
-                            <li>Passo a passo para reunir e organizar todos os documentos necessários.</li>
-                            <li>Modelos e exemplos de formulários para preenchimento correto.</li>
-                            <li>Como lidar com traduções juramentadas e validação de diplomas.</li>
+                        <h4 class="text-xl font-bold text-gradient-purple-pink mb-2">Dia 3: Hidratação e Bem-estar</h4>
+                        <ul class="list-disc list-inside text-gray-700 text-base space-y-1">
+                            <li>Receitas de águas saborizadas e chás desintoxicantes.</li>
+                            <li>Cardápio balanceado do dia.</li>
+                            <li>Foco em exercícios para o abdômen.</li>
                         </ul>
                     </div>
                 </div>
                 <div class="glass-effect p-6 rounded-xl text-left flex flex-col justify-between">
                     <div>
-                        <h4 class="text-xl font-bold text-gradient-purple-blue mb-2">Módulo 4: O Mercado de Trabalho Americano</h4>
-                        <ul class="list-disc list-inside text-gray-300 text-base space-y-1">
-                            <li>Estratégias eficazes para buscar emprego nos EUA, mesmo à distância.</li>
-                            <li>Como adaptar seu currículo e perfil para o padrão americano.</li>
-                            <li>Preparação para entrevistas de emprego: o que esperar e como se destacar.</li>
+                        <h4 class="text-xl font-bold text-gradient-purple-pink mb-2">Dia 4: Fibras e Saciedade</h4>
+                        <ul class="list-disc list-inside text-gray-700 text-base space-y-1">
+                            <li>Como a fibra ajuda no desinchaço e na saciedade.</li>
+                            <li>Receitas com alto teor de fibras.</li>
+                            <li>Treino focado em postura e core.</li>
                         </ul>
                     </div>
                 </div>
                 <div class="glass-effect p-6 rounded-xl text-left flex flex-col justify-between">
                     <div>
-                        <h4 class="text-xl font-bold text-gradient-purple-blue mb-2">Módulo 5: Adaptação e Vida nos EUA</h4>
-                        <ul class="list-disc list-inside text-gray-300 text-base space-y-1">
-                            <li>Orientações sobre moradia, aluguel e compra de imóveis.</li>
-                            <li>Sistema de saúde: seguro médico e acesso a serviços.</li>
-                            <li>Sistema financeiro: abertura de conta bancária, impostos e crédito.</li>
-                            <li>Educação para você e sua família: escolas e universidades.</li>
+                        <h4 class="text-xl font-bold text-gradient-purple-pink mb-2">Dia 5: Planejamento para o Fim de Semana</h4>
+                        <ul class="list-disc list-inside text-gray-700 text-base space-y-1">
+                            <li>Dicas para manter a leveza no fim de semana.</li>
+                            <li>Receitas práticas para o sábado e domingo.</li>
+                            <li>Treino revigorante de corpo todo.</li>
                         </ul>
                     </div>
                 </div>
                 <div class="glass-effect p-6 rounded-xl text-left flex flex-col justify-between">
                     <div>
-                        <h4 class="text-xl font-bold text-gradient-purple-blue mb-2">Módulo 6: Dicas Essenciais para o Sucesso na Imigração</h4>
-                        <ul class="list-disc list-inside text-gray-300 text-base space-y-1">
-                            <li>Erros comuns a serem evitados a todo custo.</li>
-                            <li>Recursos e ferramentas úteis para sua jornada.</li>
-                            <li>Mentoria e suporte contínuo para suas dúvidas.</li>
+                        <h4 class="text-xl font-bold text-gradient-purple-pink mb-2">Dia 6 e 7: Colhendo os Frutos</h4>
+                        <ul class="list-disc list-inside text-gray-700 text-base space-y-1">
+                            <li>Cardápio completo para os dois últimos dias.</li>
+                            <li>Orientações para manter os resultados após os 7 dias.</li>
+                            <li>Treino de alongamento e relaxamento.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="glass-effect p-6 rounded-xl text-left flex flex-col justify-between">
+                    <div>
+                        <h4 class="text-xl font-bold text-gradient-purple-pink mb-2">Bônus: Lista de Compras Inteligente</h4>
+                        <ul class="list-disc list-inside text-gray-700 text-base space-y-1">
+                            <li>Lista detalhada para otimizar suas idas ao mercado.</li>
+                            <li>Dicas de como escolher os melhores produtos anti-inchaço.</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <p class="text-lg md:text-xl text-gray-300 mt-12">E muito mais! Novas atualizações e insights são adicionados regularmente, garantindo que você tenha sempre as informações mais recentes.</p>
-            <p class="text-lg md:text-xl text-blue-300 mt-4 font-semibold">Conteúdo atualizado sempre!</p>
+            <p class="text-lg md:text-xl text-gray-700 mt-12">Cada dia é um passo em direção a você se sentir melhor, mais leve e mais confiante!</p>
+            <p class="text-lg md:text-xl text-emerald-600 mt-4 font-semibold">Conteúdo prático e direto ao ponto!</p>
         </div>
     </section>
 
-    <section class="section-padding bg-gray-800 bg-opacity-70 backdrop-filter backdrop-blur-sm">
+    <section class="section-padding bg-white bg-opacity-90 backdrop-filter backdrop-blur-sm">
         <div class="max-w-6xl mx-auto text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4">BÔNUS EXCLUSIVOS QUE ACELERAM SUA JORNADA</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-                <div class="glass-effect p-6 rounded-xl text-left">
-                    <div class="text-gradient-purple-blue text-4xl mb-3 flex items-center">
-                        <svg class="w-10 h-10 mr-3 icon-glow" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
-                        <span class="font-bold text-xl">Checklist Interativo 'Minha Imigração Ideal'</span>
-                    </div>
-                    <p class="text-gray-300 mb-2">Um checklist personalizável para você acompanhar seu progresso e garantir que não está esquecendo de nenhum detalhe crucial, com links diretos para os recursos necessários.</p>
-                    <p class="text-lg font-bold text-right text-purple-400">R$ <span class="line-through">97,00</span></p>
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-800">DEPOIMENTOS DE QUEM JÁ SENTE A DIFERENÇA</h2>
+            <h3 class="text-4xl md:text-5xl font-extrabold text-gradient-green-blue mb-10">Veja o que dizem!</h3>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+                <div class="testimonial-card">
+                    <p class="text-gray-700 text-lg italic mb-4">"Eu sofria muito com inchaço e desconforto. Em apenas 7 dias com o guia 'Barriga Leve', senti uma diferença enorme! As receitas são deliciosas e os treinos, super rápidos. Recomendo demais!"</p>
+                    <p class="font-semibold text-emerald-600">- Maria S., 34 anos</p>
                 </div>
-                <div class="glass-effect p-6 rounded-xl text-left">
-                    <div class="text-gradient-purple-blue text-4xl mb-3 flex items-center">
-                        <svg class="w-10 h-10 mr-3 icon-glow" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-10V7h2v3h-2zm0 4h2v2h-2z"/></svg>
-                        <span class="font-bold text-xl">Guia de Adaptação Cultural nos EUA</span>
-                    </div>
-                    <p class="text-gray-300 mb-2">Aprenda sobre as nuances da cultura americana, dicas de convivência, transporte, gastronomia e como se integrar rapidamente à sociedade local. Evite choques culturais!</p>
-                    <p class="text-lg font-bold text-right text-purple-400">R$ <span class="line-through">77,00</span></p>
+                <div class="testimonial-card">
+                    <p class="text-gray-700 text-lg italic mb-4">"Achava que não ia conseguir, mas os 5 minutos de treino são perfeitos para a minha rotina corrida. O cardápio é super fácil de seguir e o resultado é incrível: menos inchaço e mais disposição!"</p>
+                    <p class="font-semibold text-emerald-600">- Ana L., 42 anos</p>
                 </div>
-                <div class="glass-effect p-6 rounded-xl text-left">
-                    <div class="text-gradient-purple-blue text-4xl mb-3 flex items-center">
-                        <svg class="w-10 h-10 mr-3 icon-glow" fill="currentColor" viewBox="0 0 24 24"><path d="M20 6h-4V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-6 0h-4V4h4v2z"/></svg>
-                        <span class="font-bold text-xl">Modelos Prontos de Currículos e Cartas de Apresentação</span>
-                    </div>
-                    <p class="text-gray-300 mb-2">Receba templates profissionais de currículos e cartas de apresentação formatados para o mercado de trabalho americano, prontos para você preencher e impressionar recrutadores.</p>
-                    <p class="text-lg font-bold text-right text-purple-400">R$ <span class="line-through">127,00</span></p>
+                <div class="testimonial-card">
+                    <p class="text-gray-700 text-lg italic mb-4">"Finalmente um guia que funciona! As receitas são criativas e me ajudaram a reeducar minha alimentação. Minha barriga está muito mais leve e me sinto com muito mais energia. Valeu cada centavo!"</p>
+                    <p class="font-semibold text-emerald-600">- Julia P., 28 anos</p>
                 </div>
-                <div class="glass-effect p-6 rounded-xl text-left">
-                    <div class="text-gradient-purple-blue text-4xl mb-3 flex items-center">
-                        <svg class="w-10 h-10 mr-3 icon-glow" fill="currentColor" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg>
-                        <span class="font-bold text-xl">Acesso à Comunidade Exclusiva no Telegram</span>
-                    </div>
-                    <p class="text-gray-300 mb-2">Participe de um grupo seleto de brasileiros que estão imigrando ou já moram nos EUA. Troque experiências, faça networking, tire dúvidas e receba apoio direto. Conexões valiosas para sua nova vida!</p>
-                    <p class="text-lg font-bold text-right text-purple-400">R$ <span class="line-through">197,00</span></p>
-                </div>
-                <div class="glass-effect p-6 rounded-xl text-left">
-                    <div class="text-gradient-purple-blue text-4xl mb-3 flex items-center">
-                        <svg class="w-10 h-10 mr-3 icon-glow" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM10 8h4V6h-4zm0 8h4v-2h-4zM8 11h8v-2H8z"/></svg>
-                        <span class="font-bold text-xl">Webinar 'Os Segredos da Entrevista Consular'</span>
-                    </div>
-                    <p class="text-gray-300 mb-2">Uma sessão gravada com dicas e estratégias para você se sair bem na entrevista consular, com simulações de perguntas e respostas para te deixar 100% preparado e confiante.</p>
-                    <p class="text-lg font-bold text-right text-purple-400">R$ <span class="line-through">147,00</span></p>
+                <div class="testimonial-card">
+                    <p class="text-gray-700 text-lg italic mb-4">"Estava cética no começo, mas em 3 dias já notei a diferença. O material é muito bem organizado e a lista de compras é uma mão na roda. Minha digestão melhorou e não me sinto mais pesada. Incrível!"</p>
+                    <p class="font-semibold text-emerald-600">- Beatriz F., 51 anos</p>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="section-padding bg-gray-900 bg-opacity-70 backdrop-filter backdrop-blur-sm">
+    <section class="section-padding bg-emerald-50 bg-opacity-80 backdrop-filter backdrop-blur-sm">
         <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-8">Recapitulando tudo que você vai ter acesso ao adquirir o guia</h2>
-            <h3 class="text-4xl md:text-5xl font-extrabold text-gradient-rainbow mb-12">Ajudando Brasileiros a Imigrar para os Estados Unidos</h3>
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 text-gray-800">Recapitulando sua transformação com "7 Dias Barriga Leve"</h2>
+            <h3 class="text-4xl md:text-5xl font-extrabold text-gradient-green-blue mb-12">Tudo que você vai receber:</h3>
 
             <div class="glass-effect p-8 md:p-10 rounded-2xl shadow-2xl">
-                <ul class="text-xl md:text-2xl text-left space-y-4 mb-8">
+                <ul class="text-xl md:text-2xl text-left space-y-4 mb-8 text-gray-800">
                     <li class="flex items-center">
-                        <svg class="w-6 h-6 text-green-400 mr-3" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                        Acesso ao Guia Completo <span class="font-semibold text-gradient-purple-blue">Ajudando Brasileiros a Imigrar para os EUA</span> (<span class="line-through">R$ 297,00</span>)
+                        <svg class="w-6 h-6 text-emerald-500 mr-3" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                        Acesso ao e-book completo <span class="font-semibold text-gradient-purple-pink">7 Dias Barriga Leve</span>
                     </li>
                     <li class="flex items-center">
-                        <svg class="w-6 h-6 text-green-400 mr-3" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                        Bônus #1: Checklist Interativo 'Minha Imigração Ideal' (<span class="line-through">R$ 97,00</span>)
+                        <svg class="w-6 h-6 text-emerald-500 mr-3" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                        Receitas anti-inchaço deliciosas e fáceis
                     </li>
                     <li class="flex items-center">
-                        <svg class="w-6 h-6 text-green-400 mr-3" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                        Bônus #2: Guia de Adaptação Cultural nos EUA (<span class="line-through">R$ 77,00</span>)
+                        <svg class="w-6 h-6 text-emerald-500 mr-3" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                        Cardápio completo para 7 dias
                     </li>
                     <li class="flex items-center">
-                        <svg class="w-6 h-6 text-green-400 mr-3" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                        Bônus #3: Modelos Prontos de Currículos e Cartas de Apresentação (<span class="line-through">R$ 127,00</span>)
+                        <svg class="w-6 h-6 text-emerald-500 mr-3" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                        Lista de compras inteligente para otimizar seu tempo
                     </li>
                     <li class="flex items-center">
-                        <svg class="w-6 h-6 text-green-400 mr-3" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                        Bônus #4: Acesso à Comunidade Exclusiva no Telegram (<span class="line-through">R$ 197,00</span>)
+                        <svg class="w-6 h-6 text-emerald-500 mr-3" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                        Treinos de 5 minutos por dia para desinchar
                     </li>
                     <li class="flex items-center">
-                        <svg class="w-6 h-6 text-green-400 mr-3" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                        Bônus #5: Webinar 'Os Segredos da Entrevista Consular' (<span class="line-through">R$ 147,00</span>)
+                        <svg class="w-6 h-6 text-emerald-500 mr-3" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                        Dicas e orientações para manter os resultados
                     </li>
                 </ul>
-                <p class="text-2xl md:text-3xl font-bold text-gray-400 mb-6">Valor total: <span class="line-through">R$ 942,00</span></p>
-                <p class="text-2xl md:text-3xl font-bold text-white mb-4">Hoje, por tempo limitado, você terá acesso a tudo isso por apenas:</p>
-                <p class="text-5xl md:text-7xl font-extrabold text-gradient-rainbow mb-6">12x R$ 19,70</p>
-                <p class="text-3xl md:text-4xl font-bold text-white mb-10">ou <span class="text-gradient-purple-blue">R$ 197,00</span> à vista!</p>
-                <a href="https://pay.cakto.com.br/35des8u" target="_blank" class="inline-block btn-gradient text-white font-bold py-4 px-12 md:py-5 md:px-16 rounded-full text-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
-                    SIM, QUERO REALIZAR MEU SONHO AMERICANO!
+                <p class="text-2xl md:text-3xl font-bold text-gray-500 mb-6">Valor de mercado estimado: <span class="line-through">R$ 79,90</span></p>
+                <p class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Hoje, por tempo limitado, você terá acesso a tudo isso por apenas:</p>
+                <p class="text-3xl md:text-4xl font-bold text-gray-800 mb-10"> <span class="text-gradient-purple-pink">R$ 19,90</span> à vista!</p>
+                <a href="LINK_DO_SEU_EBOOK_AQUI" target="_blank" class="inline-block btn-gradient text-white font-bold py-4 px-12 md:py-5 md:px-16 rounded-full text-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+                    SIM, QUERO MINHA BARRIGA LEVE AGORA!
                 </a>
             </div>
         </div>
     </section>
-
-    <section class="section-padding bg-gray-800 bg-opacity-70 backdrop-filter backdrop-blur-sm">
+    <section class="section-padding bg-white bg-opacity-90 backdrop-filter backdrop-blur-sm">
         <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-8">VANTAGENS QUE ACELERAM SEU PROCESSO</h2>
-            <h3 class="text-4xl md:text-5xl font-extrabold text-gradient-purple-blue mb-12">Benefícios Exclusivos</h3>
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 text-gray-800">AINDA COM DÚVIDAS?</h2>
+            <h3 class="text-4xl md:text-5xl font-extrabold text-gradient-purple-pink mb-12">Perguntas Frequentes</h3>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-                <div class="glass-effect p-6 rounded-xl flex flex-col items-center">
-                    <svg class="w-16 h-16 text-blue-400 mb-4 icon-glow" fill="currentColor" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 20c-3.87 0-7-3.13-7-7v-5.69l7-3.5 7 3.5V14c0 3.87 3.13 7 7 7s7-3.13 7-7V8.7l-6-2.78z"/></svg>
-                    <h4 class="text-xl font-semibold mb-2">Clareza e Direção</h4>
-                    <p class="text-gray-300 text-lg">Acabe com a confusão! Tenha um mapa claro e detalhado para cada etapa da sua jornada.</p>
+            <div class="space-y-6 text-left">
+                <div class="glass-effect p-6 rounded-xl">
+                    <h4 class="text-xl font-semibold mb-2 text-emerald-700">Para quem é o e-book "7 Dias Barriga Leve"?</h4>
+                    <p class="text-gray-700">Este e-book é para qualquer pessoa que busca aliviar o inchaço, melhorar a digestão e sentir-se mais leve e com energia, através de uma abordagem prática e acessível, mesmo com pouco tempo.</p>
                 </div>
-                <div class="glass-effect p-6 rounded-xl flex flex-col items-center">
-                    <svg class="w-16 h-16 text-purple-400 mb-4 icon-glow" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"/></svg>
-                    <h4 class="text-xl font-semibold mb-2">Economia Garantida</h4>
-                    <p class="text-gray-300 text-lg">Evite gastos desnecessários com advogados e consultores, faça você mesmo com o conhecimento certo.</p>
+                <div class="glass-effect p-6 rounded-xl">
+                    <h4 class="text-xl font-semibold mb-2 text-emerald-700">Preciso de equipamentos para os treinos de 5 minutos?</h4>
+                    <p class="text-gray-700">Não! Os treinos são pensados para serem feitos em casa, usando apenas o peso do corpo. Simples e eficazes!</p>
                 </div>
-                <div class="glass-effect p-6 rounded-xl flex flex-col items-center">
-                    <svg class="w-16 h-16 text-green-400 mb-4 icon-glow" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
-                    <h4 class="text-xl font-semibold mb-2">Segurança no Processo</h4>
-                    <p class="text-gray-300 text-lg">Com informações atualizadas e precisas, minimize riscos e maximize suas chances de sucesso.</p>
+                <div class="glass-effect p-6 rounded-xl">
+                    <h4 class="text-xl font-semibold mb-2 text-emerald-700">As receitas são difíceis ou caras?</h4>
+                    <p class="text-gray-700">Pelo contrário! As receitas foram criadas para serem fáceis de fazer, com ingredientes acessíveis e que você encontra em qualquer supermercado. O foco é praticidade e sabor.</p>
                 </div>
-                <div class="glass-effect p-6 rounded-xl flex flex-col items-center">
-                    <svg class="w-16 h-16 text-yellow-400 mb-4 icon-glow" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM11 7h2v6h-2zm0 8h2v2h-2z"/></svg>
-                    <h4 class="text-xl font-semibold mb-2">Suporte e Comunidade</h4>
-                    <p class="text-gray-300 text-lg">Não caminhe sozinho! Conte com um grupo de apoio e uma mentoria para suas dúvidas.</p>
+                <div class="glass-effect p-6 rounded-xl">
+                    <h4 class="text-xl font-semibold mb-2 text-emerald-700">Os resultados são garantidos em 7 dias?</h4>
+                    <p class="text-gray-700">Os resultados podem variar de pessoa para pessoa, mas ao seguir o plano do e-book, você sentirá uma melhora significativa no inchaço e na disposição em apenas 7 dias, estabelecendo as bases para resultados duradouros.</p>
                 </div>
             </div>
-            <p class="text-lg md:text-xl text-gray-300">Milhares de brasileiros já estão vivendo o sonho americano. E você, vai ficar para trás?</p>
-            <a href="https://pay.cakto.com.br/35des8u" target="_blank" class="inline-block btn-gradient text-white font-bold py-3 px-8 md:py-4 md:px-10 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 mt-10">
-                EU QUERO COMEÇAR AGORA!
+            <a href="https://wa.me/5551998862191?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%21" target="_blank" class="inline-block btn-gradient text-white font-bold py-3 px-8 md:py-4 md:px-10 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 mt-10">
+                Ainda tem dúvidas? Fale Conosco!
             </a>
         </div>
     </section>
-
-    <footer class="bg-gray-950 bg-opacity-70 text-gray-400 text-center p-6 text-sm">
-        <p>&copy; 2025 Ajudando Brasileiros a Imigrar para os EUA. Todos os direitos reservados.</p>
-        <p class="mt-2">Disclaimer: Este produto não garante a obtenção de visto ou green card. O processo de imigração depende de diversos fatores individuais e das políticas governamentais. As informações fornecidas são para fins educacionais e de orientação, não substituem aconselhamento jurídico profissional.</p>
-        <a href="https://wa.me/5551998862191?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%21" target="_blank">Imigração Us</a>
-           
-        </p>
+    <footer class="bg-gray-100 text-gray-600 text-center p-6 text-sm">
+        <p>&copy; 2025 7 Dias Barriga Leve. Todos os direitos reservados.</p>
+        <p class="mt-2">Disclaimer: Este produto não substitui acompanhamento médico ou nutricional. Consulte sempre um profissional de saúde antes de iniciar qualquer dieta ou programa de exercícios.</p>
+        <a href="#" class="text-emerald-600 hover:underline mt-1 block">Política de Privacidade</a>
+        <a href="#" class="text-emerald-600 hover:underline mt-1 block">Termos de Uso</a>
     </footer>
-   <script src="script.js"></script>
 </body>
 </html>
